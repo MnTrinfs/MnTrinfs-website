@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowbite</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://mntrinfs.github.io/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./img/MyLogo.png" class="h-8" alt="Logo" />
+        </a>
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+            <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 " aria-current="page">Home</a>
+            </li>
+            <li>
+            <a href="#About" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+            </li>
+            <li>
+            <a href="#Projects" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+            </li>
+            <li>
+            <a href="#Experience" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Experience</a>
+            </li>
+            <li>
+            <a href="#Skills" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+
+    <!--Heading-->
+    <section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="max-w-screen-md mb-8 lg:mb-16">
+            <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                Hi, my name is
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+                    Minh Trí.
+                </span>
+            </h1>
+            <p class="text-gray-500 sm:text-xl dark:text-gray-400">
+                A 4th-year Electronics and Telecommunications student at VNU-HCMUS, actively seeking opportunities in Computer Networking, IT Helpdesk, IT Support, and Web Development.
+            </p> 
+        </div>
+        <!-- Dowload CV -->
+        <div>
+            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="https://drive.google.com/file/d/1HB-MNtGd-Hv-qv4uEPPImeb6XKKFm-nr/view?usp=drive_link">
+                Download My Resume
+                </a>
+            </button>
+            <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                Contact Me
+            </button>
+        </div>
+    </div>
+    </section>
+
+    <!--About Me-->
+    <section id="About" class="bg-white py-12 px-6">
+    <div class="max-w-7xl mx-auto">
+        <!-- Title -->
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-2">
+        About <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Me</span>
+        </h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto mb-12 rounded-full"></div>
+
+        <!-- Main Grid -->
+        <div class="grid md:grid-cols-3 gap-6">
+        <!-- Left: My Journey -->
+        <div class="md:col-span-1 bg-gray-100 p-6 rounded-xl shadow-md">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">My Journey</h3>
+            <p class="text-gray-700 mb-4">
+            Hi, I'm a final-year Electronics and Telecommunications student based in Ho Chi Minh City. I’m passionate about Networking.
+            </p>
+            <p class="text-gray-700 mb-4">
+            Over the past 3 years, I’ve gained hands-on experience in network administration: configuring, troubleshooting, and maintaining systems - while also developing skills in Web Developing, Network Security, and AWS. I’ve worked on group projects that simulate real-world networking environments, and I’m constantly exploring tools like Proxmox, GNS3, and cloud services.
+            </p>
+            <p class="text-gray-700 mb-6">
+            When I'm not working on networking projects, I’m usually learning something new & sharpening my skills for real-world impact.
+            </p>
+            <div class="flex flex-wrap gap-3">
+            <span class="bg-green-100 text-green-700 text-sm font-medium px-3 py-1 rounded-full">📍 Based in Ho Chi Minh city</span>
+            <span class="bg-green-100 text-green-700 text-sm font-medium px-3 py-1 rounded-full">💼 Junior</span>
+            </div>
+        </div>
+
+        <!-- Right: Cards -->
+        <div class="md:col-span-2 grid sm:grid-cols-2 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+            <div class="text-green-500 text-3xl mb-4">
+                🚀
+            </div>
+            <h4 class="font-semibold text-lg text-gray-800 mb-2">Problem Solver</h4>
+            <p class="text-gray-700">I approach complex challenges with analytical thinking and break them down into manageable solutions.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+            <div class="text-purple-500 text-3xl mb-4">
+                🤝
+            </div>
+            <h4 class="font-semibold text-lg text-gray-800 mb-2">Support-driven Problem Solver</h4>
+            <p class="text-gray-700">I enjoy assisting others by creating solutions that are reliable, easy to maintain, and designed with clarity and collaboration in mind.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+            <div class="text-pink-500 text-3xl mb-4">
+                💡
+            </div>
+            <h4 class="font-semibold text-lg text-gray-800 mb-2">Innovative Thinker</h4>
+            <p class="text-gray-700">I constantly explore new technologies and approaches to solve problems more efficiently.</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+            <div class="text-blue-500 text-3xl mb-4">
+                📊
+            </div>
+            <h4 class="font-semibold text-lg text-gray-800 mb-2">User-Focused</h4>
+            <p class="text-gray-700">I prioritize creating intuitive, accessible experiences that meet real user needs.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    
+    <!--Projects-->
+    <section id="Projects" class="bg-white py-16 px-6 text-gray-900">
+    <div class="max-w-7xl mx-auto text-center">
+        <!-- Title -->
+        <h2 class="text-4xl font-bold mb-2">
+        My <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Projects</span>
+        </h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto rounded-full"></div>
+        <p class="text-gray-600 max-w-xl mx-auto mt-4 mb-12">
+            Here's a selection of projects that showcase my skills and passion for building exceptional digital experiences across different platforms.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Project Card 1 -->
+            <div class="border rounded-2xl shadow-lg overflow-hidden">
+            <img
+                src=""
+                alt="ShopNest"
+                class="w-full h-48 object-cover"
+            />
+            <div class="p-5">
+                <h3 class="text-xl font-semibold">
+                ShopNest (Coming soon) <span class="bg-green-100 text-green-700 text-xs font-medium ml-2 px-2.5 py-0.5 rounded">Website</span>
+                </h3>
+                <p class="mt-2 text-gray-600">
+                A fast, modern shopping site for effortless browsing and buying.
+                </p>
+
+                <div class="flex gap-2 items-center justify-between mt-3">
+                    <div class="flex gap-2 mt-10">
+                        <span class="bg-gray-200 text-sm px-2 py-0.5 rounded">NodeJS</span>
+                        <span class="bg-purple-200 text-sm px-2 py-0.5 rounded">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between mt-4">
+                <a href="https://d2kvl2qxbf28mk.cloudfront.net/" class="flex items-center gap-1 text-blue-600 hover:underline">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="flex items-center gap-1 text-gray-700 hover:underline">
+                    <i class="fas fa-code"></i> Code
+                </a>
+                </div>
+            </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="border rounded-2xl shadow-lg overflow-hidden">
+            <img
+                src="./img/bookstore.png"
+                alt="Bookworld"
+                class="w-full h-48 object-cover"
+            />
+            <div class="p-5">
+                <h3 class="text-xl font-semibold">
+                Bookworld <span class="bg-green-100 text-green-700 text-xs font-medium ml-2 px-2.5 py-0.5 rounded">App</span>
+                </h3>
+                <p class="mt-2 text-gray-600">
+                An Android app built with Java and Firebase for browsing books and managing a shopping cart in real time.
+                </p>
+                <div class="flex gap-2 items-center justify-between mt-3">
+                    <div class="flex gap-2 mt-10">
+                        <span class="bg-gray-200 text-sm px-2 py-0.5 rounded">Java</span>
+                        <span class="bg-purple-200 text-sm px-2 py-0.5 rounded">Firebase</span>
+                    </div>
+                    <a href="https://github.com/tkim-061203/Android_K21_Book-store" class="flex items-center gap-1 mt-10 text-gray-700 hover:underline">
+                        <i class="fas fa-code"></i> Code
+                    </a>
+                </div>
+            </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="border rounded-2xl shadow-lg overflow-hidden">
+            <img
+                src="./img/licenseplate.png"
+                alt="LicensePlate"
+                class="w-full h-48 object-cover"
+            />
+            <div class="p-5">
+                <h3 class="text-xl font-semibold">
+                License Plate Recognition <span class="bg-green-100 text-green-700 text-xs font-medium ml-2 px-2.5 py-0.5 rounded">Website</span>
+                </h3>
+                <p class="mt-2 text-gray-600">
+                Built a web-based License Plate Recognition system using AWS (S3, Lambda, Rekognition, DynamoDB) and YOLO for image detection.
+                </p>
+                <div class="flex gap-2 items-center justify-between mt-3">
+                    <div class="flex gap-2 mt-10">
+                        <span class="bg-blue-100 text-sm px-2 py-0.5 rounded">NodeJS</span>
+                        <span class="bg-blue-100 text-sm px-2 py-0.5 rounded">Bootstrap 5</span>
+                        <span class="bg-blue-100 text-sm px-2 py-0.5 rounded">AWS</span>
+                    </div>
+                    <a href="https://d2kvl2qxbf28mk.cloudfront.net/" class="flex items-center gap-1 mt-10 text-blue-600 hover:underline">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+        </section>
+    </body>
+
+    <!-- Github Button -->
+    <div class="max-w-7xl mx-auto text-center">
+    <a href="https://github.com/MnTrinfs"
+    class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-blue-200">
+        <svg class="w-5 h-5 mr-2" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
+            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+            <path fill="currentColor"
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6s-5.2-1.6-5.2-3.6c0-2 2.3-3.6 5.2-3.6s5.2 1.6 5.2 3.6zm-32.3-3.2c-.7 2.1.9 4.3 3.5 4.9 2.7.6 5.5-.5 6.2-2.6.7-2.1-.9-4.3-3.5-4.9-2.7-.6-5.5.5-6.2 2.6zm44.8-1.7c-2.9.8-4.8 3.1-4.3 5.1.5 2 3.1 2.8 6 2 2.9-.8 4.8-3.1 4.3-5.1-.5-2-3.1-2.8-6-2zm61.7-1.1c-1.5 1.4-1.1 4 .9 5.7 2 .7 4.6.3 6.1-1.1 1.5-1.4 1.1-4-.9-5.7-2-.7-4.6-.3-6.1 1.1zm-73.7-5.4c-2.6 1.2-3.9 3.8-2.9 5.8 1 .9 3.3.6 5.9-.6 2.6-1.2 3.9-3.8 2.9-5.8-1-.9-3.3-.6-5.9.6zm65.2 1.1c-2.6.6-4.3 2.5-3.9 4.3.4 1.8 2.7 2.6 5.3 2 2.6-.6 4.3-2.5 3.9-4.3-.4-1.8-2.7-2.6-5.3-2zm26.3-1.4c-2.9 1.4-4.5 4.1-3.3 6 1.1 1.8 4.3 1.6 7.2-.3 2.9-1.4 4.5-4.1 3.3-6-1.1-1.8-4.3-1.6-7.2.3zM248 8C111 8 0 119 0 256c0 110 71.3 203.2 170.5 236.1 12.5 2.3 17.1-5.4 17.1-12v-44.1c-69.4 15.1-83.9-33.7-83.9-33.7-11.4-28.9-27.9-36.6-27.9-36.6-22.8-15.6 1.7-15.3 1.7-15.3 25.2 1.8 38.5 25.9 38.5 25.9 22.4 38.5 58.9 27.4 73.3 20.9 2.3-16.2 8.7-27.5 15.8-33.9-55.4-6.3-113.7-27.7-113.7-123.4 0-27.2 9.8-49.4 25.9-66.8-2.6-6.3-11.2-31.7 2.5-66.2 0 0 21-6.7 68.9 25.5 20-5.6 41.5-8.3 62.9-8.4 21.3.1 42.9 2.9 62.9 8.4 47.9-32.2 68.8-25.5 68.8-25.5 13.7 34.5 5.1 59.9 2.5 66.2 16.1 17.4 25.9 39.6 25.9 66.8 0 95.9-58.4 117-113.9 123.2 8.9 7.7 16.9 22.9 16.9 46.2v68.4c0 6.6 4.4 14.3 17.1 12C424.8 459.2 496 366 496 256 496 119 385 8 248 8z">
+            </path>
+        </svg>
+        GitHub
+    </a>
+    </div>
+
+
+
+    <!--Timeline-->
+    <section id="Experience" class="bg-white py-12 px-6">
+    <div class="max-w-7xl mx-auto">
+        <!-- Title -->
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-2">
+        My <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Experience</span>
+        </h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto mb-12 rounded-full"></div>
+    
+    <ol class="relative border-s border-gray-200 dark:border-gray-700">                  
+        <li class="mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2018-2022</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Nguyen Thi Minh Khai High School, HCM City</h3>
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+    </svg></a>
+        </li>
+        <li class="mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">October 2021 - October 2025</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Ho Chi Minh City University of Science (VNU-HCMUS)</h3>
+            <p class="text-base font-normal text-gray-500 dark:text-gray-400">Electronics & Telecommunications major</p>
+        </li>
+        <li class="mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2025 - April 2025</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">vHost – Hosting | Email | Cloud Solutions</h3>
+            <p class="text-base font-normal text-gray-500 dark:text-gray-400">Linux System Administrator - Internship</p>
+        </li>
+    </ol>
+
+
+
+
+    <!--Technical Skills-->
+    <section id="Skills" class="bg-white py-16 px-6 text-gray-900">
+    <div class="max-w-7xl mx-auto text-center">
+        <!-- Title -->
+        <h2 class="text-4xl font-bold mb-2">
+        Technical <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Skills</span>
+        </h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto rounded-full"></div>
+        <p class="text-gray-600  mx-auto mt-4 mb-12">
+            Some of the essential technologies I use when building products.
+        </p>
+
+        <!-- Grid -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <!-- Mobile -->
+        <div class="bg-gray-100 p-6 rounded-xl shadow-sm">
+            <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
+            <span class="text-pink-500 text-2xl">📱</span> Mobile
+            </h3>
+            <div class="flex flex-wrap gap-3">
+            <span class="badge-skill">Flutter</span>
+            <span class="badge-skill">React Native</span>
+            <span class="badge-skill">Java</span>
+            <span class="badge-skill">Tailwind-CSS</span>
+            </div>
+        </div>
+
+        <!-- Networking -->
+        <div class="bg-gray-100 p-6 rounded-xl shadow-sm">
+            <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
+            <span class="text-green-600 text-2xl">📡</span> Networking
+            </h3>
+            <div class="flex flex-wrap gap-3">
+            <span class="badge-skill">GNS3</span>
+            <span class="badge-skill">EVE-NG</span>
+            <span class="badge-skill">PacketTracer</span>
+            </div>
+        </div>
+
+        <!-- Database -->
+        <div class="bg-gray-100 p-6 rounded-xl shadow-sm">
+            <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
+            <span class="text-purple-600 text-2xl">🗄️</span> Database
+            </h3>
+            <div class="flex flex-wrap gap-3">
+            <span class="badge-skill">PostgreSQL</span>
+            <span class="badge-skill">Redis</span>
+            <span class="badge-skill">Firebase</span>
+            <span class="badge-skill">MongoDB</span>
+            </div>
+        </div>
+
+        <!-- DevOps -->
+        <div class="bg-gray-100 p-6 rounded-xl shadow-sm">
+            <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
+            <span class="text-yellow-500 text-2xl">⚙️</span> DevOps
+            </h3>
+            <div class="flex flex-wrap gap-3">
+            <span class="badge-skill">Kubernetes</span>
+            <span class="badge-skill">GitHub</span>
+            <span class="badge-skill">AWS</span>
+            <span class="badge-skill">Prometheus</span>
+            <span class="badge-skill">Grafana</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Tailwind Custom Badge Class -->
+    <style>
+    .badge-skill {
+        @apply bg-white border border-gray-300 text-sm text-gray-800 px-3 py-1 rounded-full shadow-sm hover:bg-gray-100 transition;
+    }
+    </style>
+
+    
+    <!-- Footer -->
+    <footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 MnTri</a>. All Rights Reserved.
+        </span>
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <li>
+                <a href="https://github.com/MnTrinfs" class="hover:underline me-4 md:me-6">Github</a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/in/nguynngcminhtr7" class="hover:underline me-4 md:me-6">Linkedin</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Email</a>
+            </li>
+            <li>
+                <a href="https://x.com/NguynNgcMinhTr7" class="hover:underline">Twitter</a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+</html>
