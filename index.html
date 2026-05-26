@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flowbite</title>
+    <title>Minh Trí | Computer Networking & Web Development Portfolio</title>
+    <meta name="description" content="Portfolio of Minh Trí, an Electronics and Telecommunications student at VNU-HCMUS, specializing in Computer Networking, Web Development, and Cloud Solutions.">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
     <link
@@ -149,121 +150,150 @@
     </section>
     
     <!--Projects-->
-    <section id="Projects" class="bg-white py-16 px-6 text-gray-900">
+    <section id="Projects" class="bg-white dark:bg-gray-900 py-16 px-6 text-gray-900 dark:text-white transition-colors duration-300">
     <div class="max-w-7xl mx-auto text-center">
         <!-- Title -->
         <h2 class="text-4xl font-bold mb-2">
         My <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Projects</span>
         </h2>
         <div class="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto rounded-full"></div>
-        <p class="text-gray-600 max-w-xl mx-auto mt-4 mb-12">
+        <p class="text-gray-600 dark:text-gray-400 max-w-xl mx-auto mt-4 mb-12">
             Here's a selection of projects that showcase my skills and passion for building exceptional digital experiences across different platforms.
         </p>
 
         <div class="grid md:grid-cols-3 gap-8">
             <!-- Project Card 1 -->
-            <div class="border rounded-2xl shadow-lg overflow-hidden">
-            <img
-                src=""
-                alt="ShopNest"
-                class="w-full h-48 object-cover"
-            />
-            <div class="p-5">
-                <h3 class="text-xl font-semibold">
-                ShopNest (Coming soon) <span class="bg-green-100 text-green-700 text-xs font-medium ml-2 px-2.5 py-0.5 rounded">Website</span>
-                </h3>
-                <p class="mt-2 text-gray-600">
-                A fast, modern shopping site for effortless browsing and buying.
-                </p>
-
-                <div class="flex gap-2 items-center justify-between mt-3">
-                    <div class="flex gap-2 mt-10">
-                        <span class="bg-gray-200 text-sm px-2 py-0.5 rounded">NodeJS</span>
-                        <span class="bg-purple-200 text-sm px-2 py-0.5 rounded">MongoDB</span>
+            <div class="flex flex-col h-full border border-gray-100 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-white dark:bg-gray-900 overflow-hidden group">
+                <div class="overflow-hidden h-48 bg-gray-50 dark:bg-gray-800">
+                    <img
+                        src="./img/network_lab.png"
+                        alt="Enterprise Virtualization & Network Lab"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                </div>
+                <div class="p-6 flex flex-col flex-grow text-left">
+                    <div class="flex items-center justify-between gap-2 mb-2">
+                        <span class="bg-indigo-50 text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-400 text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                            Infrastructure
+                        </span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
+                        Enterprise Virtualization & Network Lab
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-6 flex-grow">
+                        Built a multi-node virtualization and network simulation lab on Proxmox VE. Integrated GNS3 to simulate WAN/LAN routing, segmented traffic using pfSense firewall, and deployed Prometheus & Grafana to monitor system bandwidth and performance in real time.
+                    </p>
+                    <div>
+                        <div class="flex flex-wrap gap-1.5 mb-4">
+                            <span class="bg-gray-50 text-gray-600 dark:bg-gray-800 dark:text-gray-300 text-xs font-medium px-2.5 py-1 rounded-md border border-gray-100 dark:border-gray-700">Proxmox</span>
+                            <span class="bg-gray-50 text-gray-600 dark:bg-gray-800 dark:text-gray-300 text-xs font-medium px-2.5 py-1 rounded-md border border-gray-100 dark:border-gray-700">GNS3</span>
+                            <span class="bg-gray-50 text-gray-600 dark:bg-gray-800 dark:text-gray-300 text-xs font-medium px-2.5 py-1 rounded-md border border-gray-100 dark:border-gray-700">pfSense</span>
+                            <span class="bg-gray-50 text-gray-600 dark:bg-gray-800 dark:text-gray-300 text-xs font-medium px-2.5 py-1 rounded-md border border-gray-100 dark:border-gray-700">Grafana</span>
+                        </div>
+                        <div class="border-t border-gray-100 dark:border-gray-800 my-4"></div>
+                        <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-400 dark:text-gray-500 flex items-center gap-1.5 cursor-not-allowed">
+                                <i class="fas fa-network-wired text-xs"></i> Lab Environment
+                            </span>
+                            <a href="https://github.com/MnTrinfs" target="_blank" class="flex items-center gap-1.5 text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors font-medium">
+                                <i class="fab fa-github"></i> Docs / Code
+                            </a>
+                        </div>
                     </div>
                 </div>
-
-                <div class="flex items-center justify-between mt-4">
-                <a href="" class="flex items-center gap-1 text-blue-600 hover:underline">
-                    <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
-                <a href="#" class="flex items-center gap-1 text-gray-700 hover:underline">
-                    <i class="fas fa-code"></i> Code
-                </a>
-                </div>
-            </div>
             </div>
 
             <!-- Project Card 2 -->
-            <div class="border rounded-2xl shadow-lg overflow-hidden">
-            <img
-                src="./img/bookstore.png"
-                alt="Bookworld"
-                class="w-full h-48 object-cover"
-            />
-            <div class="p-5">
-                <h3 class="text-xl font-semibold">
-                Bookworld <span class="bg-green-100 text-green-700 text-xs font-medium ml-2 px-2.5 py-0.5 rounded">App</span>
-                </h3>
-                <p class="mt-2 text-gray-600">
-                An Android app built with Java and Firebase for browsing books and managing a shopping cart in real time.
-                </p>
-                <div class="flex gap-2 items-center justify-between mt-3">
-                    <div class="flex gap-2 mt-10">
-                        <span class="bg-gray-200 text-sm px-2 py-0.5 rounded">Java</span>
-                        <span class="bg-purple-200 text-sm px-2 py-0.5 rounded">Firebase</span>
-                    </div>
-                    <a href="https://github.com/tkim-061203/Android_K21_Book-store" class="flex items-center gap-1 mt-10 text-gray-700 hover:underline">
-                        <i class="fas fa-code"></i> Code
-                    </a>
+            <div class="flex flex-col h-full border border-gray-100 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-white dark:bg-gray-900 overflow-hidden group">
+                <div class="overflow-hidden h-48 bg-gray-50 dark:bg-gray-800">
+                    <img
+                        src="./img/bookstore.png"
+                        alt="Bookworld"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
                 </div>
-            </div>
+                <div class="p-6 flex flex-col flex-grow text-left">
+                    <div class="flex items-center justify-between gap-2 mb-2">
+                        <span class="bg-purple-50 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400 text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                            App
+                        </span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
+                        Bookworld
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-6 flex-grow">
+                        An Android app built with Java and Firebase for browsing books and managing a shopping cart in real time.
+                    </p>
+                    <div>
+                        <div class="flex flex-wrap gap-1.5 mb-4">
+                            <span class="bg-gray-50 text-gray-600 dark:bg-gray-800 dark:text-gray-300 text-xs font-medium px-2.5 py-1 rounded-md border border-gray-100 dark:border-gray-700">Java</span>
+                            <span class="bg-gray-50 text-gray-600 dark:bg-gray-800 dark:text-gray-300 text-xs font-medium px-2.5 py-1 rounded-md border border-gray-100 dark:border-gray-700">Firebase</span>
+                        </div>
+                        <div class="border-t border-gray-100 dark:border-gray-800 my-4"></div>
+                        <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-400 dark:text-gray-500 flex items-center gap-1.5 cursor-not-allowed">
+                                <i class="fas fa-ban text-xs"></i> No Live Demo
+                            </span>
+                            <a href="https://github.com/tkim-061203/Android_K21_Book-store" target="_blank" class="flex items-center gap-1.5 text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors font-medium">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Project Card 3 -->
-            <div class="border rounded-2xl shadow-lg overflow-hidden">
-            <img
-                src="./img/licenseplate.png"
-                alt="LicensePlate"
-                class="w-full h-48 object-cover"
-            />
-            <div class="p-5">
-                <h3 class="text-xl font-semibold">
-                License Plate Recognition <span class="bg-green-100 text-green-700 text-xs font-medium ml-2 px-2.5 py-0.5 rounded">Website</span>
-                </h3>
-                <p class="mt-2 text-gray-600">
-                Built a web-based License Plate Recognition system using AWS (S3, Lambda, Rekognition, DynamoDB) and YOLO for image detection.
-                </p>
-                <div class="flex gap-2 items-center justify-between mt-3">
-                    <div class="flex gap-2 mt-10">
-                        <span class="bg-blue-100 text-sm px-2 py-0.5 rounded">NodeJS</span>
-                        <span class="bg-blue-100 text-sm px-2 py-0.5 rounded">Bootstrap 5</span>
-                        <span class="bg-blue-100 text-sm px-2 py-0.5 rounded">AWS</span>
+            <div class="flex flex-col h-full border border-gray-100 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-white dark:bg-gray-900 overflow-hidden group">
+                <div class="overflow-hidden h-48 bg-gray-50 dark:bg-gray-800">
+                    <img
+                        src="./img/licenseplate.png"
+                        alt="License Plate Recognition"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                </div>
+                <div class="p-6 flex flex-col flex-grow text-left">
+                    <div class="flex items-center justify-between gap-2 mb-2">
+                        <span class="bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400 text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                            Website
+                        </span>
                     </div>
-                    <a href="https://github.com/MnTrinfs/License_Plate_Detection_using_AWS" class="flex items-center gap-1 mt-10 text-blue-600 hover:underline">
-                        <i class="fas fa-external-link-alt"></i> Github
-                    </a>
+                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
+                        License Plate Recognition
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-6 flex-grow">
+                        Built a web-based License Plate Recognition system using AWS (S3, Lambda, Rekognition, DynamoDB) and YOLO for image detection.
+                    </p>
+                    <div>
+                        <div class="flex flex-wrap gap-1.5 mb-4">
+                            <span class="bg-gray-50 text-gray-600 dark:bg-gray-800 dark:text-gray-300 text-xs font-medium px-2.5 py-1 rounded-md border border-gray-100 dark:border-gray-700">NodeJS</span>
+                            <span class="bg-gray-50 text-gray-600 dark:bg-gray-800 dark:text-gray-300 text-xs font-medium px-2.5 py-1 rounded-md border border-gray-100 dark:border-gray-700">Bootstrap 5</span>
+                            <span class="bg-gray-50 text-gray-600 dark:bg-gray-800 dark:text-gray-300 text-xs font-medium px-2.5 py-1 rounded-md border border-gray-100 dark:border-gray-700">AWS</span>
+                        </div>
+                        <div class="border-t border-gray-100 dark:border-gray-800 my-4"></div>
+                        <div class="flex items-center justify-between text-sm">
+                            <a href="https://github.com/MnTrinfs/License_Plate_Detection_using_AWS" target="_blank" class="flex items-center gap-1.5 text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 transition-colors font-medium">
+                                <i class="fas fa-external-link-alt text-xs"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/MnTrinfs/License_Plate_Detection_using_AWS" target="_blank" class="flex items-center gap-1.5 text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors font-medium">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        </section>
-    </body>
 
-    <!-- Github Button -->
-    <div class="max-w-7xl mx-auto text-center">
-    <a href="https://github.com/MnTrinfs"
-    class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-blue-200">
-        <svg class="w-5 h-5 mr-2" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
-            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-            <path fill="currentColor"
-                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6s-5.2-1.6-5.2-3.6c0-2 2.3-3.6 5.2-3.6s5.2 1.6 5.2 3.6zm-32.3-3.2c-.7 2.1.9 4.3 3.5 4.9 2.7.6 5.5-.5 6.2-2.6.7-2.1-.9-4.3-3.5-4.9-2.7-.6-5.5.5-6.2 2.6zm44.8-1.7c-2.9.8-4.8 3.1-4.3 5.1.5 2 3.1 2.8 6 2 2.9-.8 4.8-3.1 4.3-5.1-.5-2-3.1-2.8-6-2zm61.7-1.1c-1.5 1.4-1.1 4 .9 5.7 2 .7 4.6.3 6.1-1.1 1.5-1.4 1.1-4-.9-5.7-2-.7-4.6-.3-6.1 1.1zm-73.7-5.4c-2.6 1.2-3.9 3.8-2.9 5.8 1 .9 3.3.6 5.9-.6 2.6-1.2 3.9-3.8 2.9-5.8-1-.9-3.3-.6-5.9.6zm65.2 1.1c-2.6.6-4.3 2.5-3.9 4.3.4 1.8 2.7 2.6 5.3 2 2.6-.6 4.3-2.5 3.9-4.3-.4-1.8-2.7-2.6-5.3-2zm26.3-1.4c-2.9 1.4-4.5 4.1-3.3 6 1.1 1.8 4.3 1.6 7.2-.3 2.9-1.4 4.5-4.1 3.3-6-1.1-1.8-4.3-1.6-7.2.3zM248 8C111 8 0 119 0 256c0 110 71.3 203.2 170.5 236.1 12.5 2.3 17.1-5.4 17.1-12v-44.1c-69.4 15.1-83.9-33.7-83.9-33.7-11.4-28.9-27.9-36.6-27.9-36.6-22.8-15.6 1.7-15.3 1.7-15.3 25.2 1.8 38.5 25.9 38.5 25.9 22.4 38.5 58.9 27.4 73.3 20.9 2.3-16.2 8.7-27.5 15.8-33.9-55.4-6.3-113.7-27.7-113.7-123.4 0-27.2 9.8-49.4 25.9-66.8-2.6-6.3-11.2-31.7 2.5-66.2 0 0 21-6.7 68.9 25.5 20-5.6 41.5-8.3 62.9-8.4 21.3.1 42.9 2.9 62.9 8.4 47.9-32.2 68.8-25.5 68.8-25.5 13.7 34.5 5.1 59.9 2.5 66.2 16.1 17.4 25.9 39.6 25.9 66.8 0 95.9-58.4 117-113.9 123.2 8.9 7.7 16.9 22.9 16.9 46.2v68.4c0 6.6 4.4 14.3 17.1 12C424.8 459.2 496 366 496 256 496 119 385 8 248 8z">
-            </path>
-        </svg>
-        GitHub
-    </a>
+        <!-- Github Button -->
+        <div class="mt-12 flex justify-center">
+            <a href="https://github.com/MnTrinfs" target="_blank" class="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-gray-900 hover:text-white bg-white hover:bg-gray-900 border border-gray-300 hover:border-gray-900 rounded-full shadow-sm transition-all duration-300 dark:bg-gray-800 dark:text-gray-200 dark:border-gray-700 dark:hover:bg-white dark:hover:text-gray-900 dark:hover:border-white gap-2">
+                <svg class="w-5 h-5" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                    <path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6s-5.2-1.6-5.2-3.6c0-2 2.3-3.6 5.2-3.6s5.2 1.6 5.2 3.6zm-32.3-3.2c-.7 2.1.9 4.3 3.5 4.9 2.7.6 5.5-.5 6.2-2.6.7-2.1-.9-4.3-3.5-4.9-2.7-.6-5.5.5-6.2 2.6zm44.8-1.7c-2.9.8-4.8 3.1-4.3 5.1.5 2 3.1 2.8 6 2 2.9-.8 4.8-3.1 4.3-5.1-.5-2-3.1-2.8-6-2zm61.7-1.1c-1.5 1.4-1.1 4 .9 5.7 2 .7 4.6.3 6.1-1.1 1.5-1.4 1.1-4-.9-5.7-2-.7-4.6-.3-6.1 1.1zm-73.7-5.4c-2.6 1.2-3.9 3.8-2.9 5.8 1 .9 3.3.6 5.9-.6 2.6-1.2 3.9-3.8 2.9-5.8-1-.9-3.3-.6-5.9.6zm65.2 1.1c-2.6.6-4.3 2.5-3.9 4.3.4 1.8 2.7 2.6 5.3 2 2.6-.6 4.3-2.5 3.9-4.3-.4-1.8-2.7-2.6-5.3-2zm26.3-1.4c-2.9 1.4-4.5 4.1-3.3 6 1.1 1.8 4.3 1.6 7.2-.3 2.9-1.4 4.5-4.1 3.3-6-1.1-1.8-4.3-1.6-7.2.3zM248 8C111 8 0 119 0 256c0 110 71.3 203.2 170.5 236.1 12.5 2.3 17.1-5.4 17.1-12v-44.1c-69.4 15.1-83.9-33.7-83.9-33.7-11.4-28.9-27.9-36.6-27.9-36.6-22.8-15.6 1.7-15.3 1.7-15.3 25.2 1.8 38.5 25.9 38.5 25.9 22.4 38.5 58.9 27.4 73.3 20.9 2.3-16.2 8.7-27.5 15.8-33.9-55.4-6.3-113.7-27.7-113.7-123.4 0-27.2 9.8-49.4 25.9-66.8-2.6-6.3-11.2-31.7 2.5-66.2 0 0 21-6.7 68.9 25.5 20-5.6 41.5-8.3 62.9-8.4 21.3.1 42.9 2.9 62.9 8.4 47.9-32.2 68.8-25.5 68.8-25.5 13.7 34.5 5.1 59.9 2.5 66.2 16.1 17.4 25.9 39.6 25.9 66.8 0 95.9-58.4 117-113.9 123.2 8.9 7.7 16.9 22.9 16.9 46.2v68.4c0 6.6 4.4 14.3 17.1 12C424.8 459.2 496 366 496 256 496 119 385 8 248 8z"></path>
+                </svg>
+                <span>View More on GitHub</span>
+            </a>
+        </div>
     </div>
-
-
+    </section>
 
     <!--Timeline-->
     <section id="Experience" class="bg-white py-12 px-6">
@@ -279,8 +309,6 @@
             <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2018 - 2022</time>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Nguyen Thi Minh Khai High School, HCM City</h3>
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-    </svg></a>
         </li>
         <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -301,26 +329,28 @@
             <p class="text-base font-normal text-gray-500 dark:text-gray-400">Datacenter Technician</p>
         </li>
     </ol>
+    </div>
+    </section>
 
 
 
 
     <!--Technical Skills-->
-    <section id="Skills" class="bg-white py-16 px-6 text-gray-900">
+    <section id="Skills" class="bg-white dark:bg-gray-900 py-16 px-6 text-gray-900 dark:text-white transition-colors duration-300">
     <div class="max-w-7xl mx-auto text-center">
         <!-- Title -->
         <h2 class="text-4xl font-bold mb-2">
         Technical <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Skills</span>
         </h2>
         <div class="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto rounded-full"></div>
-        <p class="text-gray-600  mx-auto mt-4 mb-12">
+        <p class="text-gray-600 dark:text-gray-400 mx-auto mt-4 mb-12">
             Some of the essential technologies I use when building products.
         </p>
 
         <!-- Grid -->
         <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
         <!-- Mobile -->
-        <div class="bg-gray-100 p-6 rounded-xl shadow-sm">
+        <div class="bg-gray-100 dark:bg-gray-800/50 p-6 rounded-xl shadow-sm border border-transparent dark:border-gray-800/80">
             <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
             <span class="text-pink-500 text-2xl">📱</span> Mobile
             </h3>
@@ -333,7 +363,7 @@
         </div>
 
         <!-- Networking -->
-        <div class="bg-gray-100 p-6 rounded-xl shadow-sm">
+        <div class="bg-gray-100 dark:bg-gray-800/50 p-6 rounded-xl shadow-sm border border-transparent dark:border-gray-800/80">
             <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
             <span class="text-green-600 text-2xl">📡</span> Networking
             </h3>
@@ -345,7 +375,7 @@
         </div>
 
         <!-- Database -->
-        <div class="bg-gray-100 p-6 rounded-xl shadow-sm">
+        <div class="bg-gray-100 dark:bg-gray-800/50 p-6 rounded-xl shadow-sm border border-transparent dark:border-gray-800/80">
             <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
             <span class="text-purple-600 text-2xl">🗄️</span> Database
             </h3>
@@ -358,7 +388,7 @@
         </div>
 
         <!-- DevOps -->
-        <div class="bg-gray-100 p-6 rounded-xl shadow-sm">
+        <div class="bg-gray-100 dark:bg-gray-800/50 p-6 rounded-xl shadow-sm border border-transparent dark:border-gray-800/80">
             <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
             <span class="text-yellow-500 text-2xl">⚙️</span> DevOps
             </h3>
@@ -375,9 +405,9 @@
     </section>
 
     <!-- Tailwind Custom Badge Class -->
-    <style>
+    <style type="text/tailwindcss">
     .badge-skill {
-        @apply bg-white border border-gray-300 text-sm text-gray-800 px-3 py-1 rounded-full shadow-sm hover:bg-gray-100 transition;
+        @apply bg-white border border-gray-300 text-sm text-gray-800 px-3 py-1 rounded-full shadow-sm hover:bg-gray-100 transition dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-700;
     }
     </style>
 
@@ -385,7 +415,7 @@
     <!-- Footer -->
     <footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
         <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 MnTri</a>. All Rights Reserved.
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 MnTri. All Rights Reserved.
         </span>
         <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
             <li>
